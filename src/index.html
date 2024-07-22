@@ -12,7 +12,27 @@
 		<h1>Todo List</h1>
 	</header>
 
-	<div id="content"></div>
+	<div id="content">
+		<button class="btn-add">Add task</button>
+	</div>
+
+	<dialog id="form-dialog">
+		<div class="form-popup">
+			<form action="" method="dialog" class="form-container">
+				<label for="" class="form-header">Add a task</label>
+
+				<input type="text" name="title" id="title" placeholder="Title">
+
+				<input type="text" name="priority" id="priority">
+
+				<input type="date" name="date" id="date">
+
+				<div>
+					<button type="submit" class="btn-submit">Add</button>
+				</div>
+			</form>
+		</div>
+	</dialog>
 
 </body>
 
